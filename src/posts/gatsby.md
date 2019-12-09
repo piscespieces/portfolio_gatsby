@@ -1,6 +1,6 @@
 ---
-name: "Gatsby Code Along Project Test"
-title: "2019-12-08"
+title: "Gatsby Code Along Project Test"
+date: "2019-12-08"
 ---
 
 This is just a test
