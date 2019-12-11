@@ -27,7 +27,7 @@ const Header = () => {
           </Link> */}
 
           <Link
-            to="/about"
+            to="/"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
             <span>
