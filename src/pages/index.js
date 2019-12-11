@@ -27,9 +27,8 @@ const IndexPage = (props) => {
     <>
       <Layout>
         <Head helmetTitle='Home' />
-        <h1>This is the IndexPage</h1>
-        <Img fluid={props.data.file.childImageSharp.fluid} />
-        <p>I'm Andres, and I was born in Venezuela</p>
+        {/* <Img fluid={props.data.file.childImageSharp.fluid} />
+        <p>I'm Andres, and I was born in Venezuela</p> */}
       </Layout>
     </>
   )
