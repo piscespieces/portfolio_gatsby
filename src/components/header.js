@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import { FaHome, FaUserCircle, FaSuitcase, FaEnvelope } from 'react-icons/fa';
 
 import headerStyles from './header.module.scss'
 
@@ -13,36 +14,44 @@ const Header = () => {
       }
     }
   `)
+
   return (
     <header className={headerStyles.header}>
       <nav>
         <div>
-          <Link
+          {/* <Link
             to="/"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
-            HOME
-          </Link>
+            <FaHome /> HOME
+          </Link> */}
 
           <Link
             to="/about"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
-            ABOUT
+            <FaUserCircle /> ABOUT
           </Link>
 
-          <Link
+          {/* <Link
             to="/blog"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
             BLOG
+          </Link> */}
+
+          <Link
+            to="/projects"
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.activeNavItem}>
+            <FaSuitcase /> PROJECTS
           </Link>
 
           <Link
             to="/contact"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
-            CONTACT
+            <FaEnvelope /> CONTACT
           </Link>
         </div>
       </nav>

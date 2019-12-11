@@ -35,6 +35,14 @@ module.exports = {
               maxWidth: 750,
               linkImagesToOriginal: false
             }
+          },
+          {
+            resolve: 'gatsby-plugin-google-fonts',
+            options: {
+              fonts: [
+                `Noto Sans\:300,400,400i,700`
+              ]
+            }
           }
         ]
       }
