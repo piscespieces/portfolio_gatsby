@@ -1,13 +1,16 @@
 .container {
-   margin: 0 auto;
-   max-width: 750px;
-   padding: 1rem;
-
+   width: 90vw;
+   margin: 0 auto 0 10vw;
    display: flex;
    flex-direction: column;
+   justify-content: center;
    min-height: 100vh;
+   background: #0F1623;
 }
 
 .content {
-   flex-grow: 1;
+   width: 100%;
+   height: 65vh;
+   display: grid;
+   grid-template-columns: 0.6fr 1fr
 }
