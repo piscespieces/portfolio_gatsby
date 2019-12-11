@@ -81,7 +81,7 @@ const IndexPage = (props) => {
               <span id={indexStyles.resume}>
                 For more details, check out&nbsp;
                 <strong>
-                  my resume.
+                  <Link to='/resume'>my resume.</Link>
                 </strong>
               </span>
             </p>
