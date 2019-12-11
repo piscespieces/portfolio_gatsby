@@ -53,33 +53,14 @@ const IndexPage = (props) => {
             <p>My name is <strong>Andres Urdaneta</strong>. Originaly from Venezuela, but based in Miami🌴, FL.
             <br />
               <br />
-              I’m a creative, ambitious, and passionate Software Developer at&nbsp;
-              <a
-                id={indexStyles.carecloud}
-                href='https://www.carecloud.com'
-                target='_blank'
-              >
-                CareCloud
-              </a>.
-              I build apps using&nbsp;
-              <strong id={indexStyles.react}>
-                React
-              </strong>,&nbsp;
-              <strong id={indexStyles.node}>
-                Node
+              I’m a creative, ambitious, and passionate Software Developer.
+              I build mobile and web apps using different programming languages like&nbsp;
+              <strong id={indexStyles.javascript}>
+                JavaScript
               </strong>,&nbsp;
               <strong id={indexStyles.ruby}>
-                Ruby On Rails
-              </strong>,&nbsp;
-              <strong id={indexStyles.graphql}>
-                GraphQL
-              </strong>,&nbsp;
-              <strong id={indexStyles.mongo}>
-                MongoDB
-              </strong>,&nbsp;
-              <strong id={indexStyles.postgresql}>
-                PostgreSQL
-              </strong>.
+                Ruby
+              </strong>...
               <br />
               <br />
               I’m also a&nbsp;
