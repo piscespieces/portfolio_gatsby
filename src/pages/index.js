@@ -54,9 +54,13 @@ const IndexPage = (props) => {
             <br />
               <br />
               I’m a creative, ambitious, and passionate Software Developer at&nbsp;
-              <strong id={indexStyles.carecloud}>
+              <a
+                id={indexStyles.carecloud}
+                href='https://www.carecloud.com'
+                target='_blank'
+              >
                 CareCloud
-              </strong>.
+              </a>.
               I build apps using&nbsp;
               <strong id={indexStyles.react}>
                 React
