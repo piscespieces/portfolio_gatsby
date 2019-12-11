@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
@@ -8,15 +9,34 @@ import Head from '../components/head'
 // import Image from "../components/image"
 // import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <>
-    <Layout>
-      <Head helmetTitle='Home' />
-      <h1>This is the IndexPage</h1>
-      <p>I'm Andres, and I was born in Venezuela</p>
-      <Link to="/contact">Contact Me</Link>
-    </Layout>
-  </>
-)
+export const query = graphql`
+query {
+  file (
+    relativePath: {eq: "images/UrdanetaAndres.jpg"}
+  ) {
+    childImageSharp {
+      fluid (
+        maxWidth: 1000
+      ) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+}
+`
+
+const IndexPage = (props) => {
+  console.log(props)
+  return (
+    <>
+      <Layout>
+        <Head helmetTitle='Home' />
+        <h1>This is the IndexPage</h1>
+        <Img fluid={props.data.file.childImageSharp.fluid} />
+        <p>I'm Andres, and I was born in Venezuela</p>
+      </Layout>
+    </>
+  )
+}
 
 export default IndexPage
