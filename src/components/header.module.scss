@@ -1,4 +1,6 @@
 .header {
+   font-family: Noto Sans, sans-serif;
+   font-weight: 700;
    background: #0F1623;
    position: fixed;
    top: 0;
@@ -24,6 +26,14 @@
 
          a {
             margin: 0;
+            display: flex;
+            flex-direction: column;
+
+            span {
+               display: flex;
+               justify-content: center;
+               font-size: 1.8rem;
+            }
          }
       }
    }
