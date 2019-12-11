@@ -3,7 +3,7 @@ import React from "react"
 import Header from "./header"
 import Footer from "./footer"
 import "../stylesheets/layout.scss"
-import layoutStyles from './layout.module.scss'
+import layoutStyles from './layoutComponent.module.scss'
 
 const Layout = ({ children }) => {
   return (
