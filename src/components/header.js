@@ -30,7 +30,9 @@ const Header = () => {
             to="/about"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
-            <FaUserCircle /> ABOUT
+            <span>
+              <FaUserCircle />
+            </span> ABOUT
           </Link>
 
           {/* <Link
@@ -44,14 +46,18 @@ const Header = () => {
             to="/projects"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
-            <FaSuitcase /> PROJECTS
+            <span>
+              <FaSuitcase />
+            </span> PROJECTS
           </Link>
 
           <Link
             to="/contact"
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}>
-            <FaEnvelope /> CONTACT
+            <span>
+              <FaEnvelope />
+            </span> CONTACT
           </Link>
         </div>
       </nav>
