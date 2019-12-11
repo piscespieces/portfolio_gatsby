@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import indexStyles from './index.module.scss'
 
 export const query = graphql`
 query {
@@ -27,8 +28,16 @@ const IndexPage = (props) => {
     <>
       <Layout>
         <Head helmetTitle='Home' />
-        {/* <Img fluid={props.data.file.childImageSharp.fluid} />
-        <p>I'm Andres, and I was born in Venezuela</p> */}
+        <div className={indexStyles.imageWrapper}>
+          <div className={indexStyles.imageContainer}>
+            <Img fluid={props.data.file.childImageSharp.fluid} className={indexStyles.image} />
+          </div>
+        </div>
+        <div className={indexStyles.textWrapper}>
+          <div className={indexStyles.textContainer}>
+            <p>This is me</p>
+          </div>
+        </div>
       </Layout>
     </>
   )
