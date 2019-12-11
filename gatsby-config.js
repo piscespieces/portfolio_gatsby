@@ -40,6 +40,7 @@ module.exports = {
             resolve: 'gatsby-plugin-google-fonts',
             options: {
               fonts: [
+                `Roboto Mono\:300,400,400i,700`,
                 `Noto Sans\:300,400,400i,700`
               ]
             }

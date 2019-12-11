@@ -33,9 +33,58 @@ const IndexPage = (props) => {
             <Img fluid={props.data.file.childImageSharp.fluid} className={indexStyles.image} />
           </div>
         </div>
+
         <div className={indexStyles.textWrapper}>
+          <h1>
+            <span>
+              Nice
+            </span>
+            <span>
+              to
+            </span>
+            <span>
+              meet
+            </span>
+            <span>
+              you
+            </span>
+          </h1>
           <div className={indexStyles.textContainer}>
-            <p>This is me</p>
+            <p>My name is <strong>Andres Urdaneta</strong>. Originaly from Venezuela, but based in Miami, FL.<br />
+              <br />
+              I’m a creative, ambitious, and passionate Software Developer at&nbsp;
+              <strong id={indexStyles.carecloud}>
+                CareCloud
+              </strong>.
+              I build apps using&nbsp;
+              <strong id={indexStyles.react}>
+                React
+              </strong>,&nbsp;
+              <strong id={indexStyles.node}>
+                Node
+              </strong>,&nbsp;
+              <strong id={indexStyles.ruby}>
+                Ruby On Rails
+              </strong>,&nbsp;
+              <strong id={indexStyles.graphql}>
+                GraphQL
+              </strong>,&nbsp;
+              <strong id={indexStyles.mongo}>
+                MongoDB
+              </strong>,&nbsp;
+              <strong id={indexStyles.postgresql}>
+                PostgreSQL
+              </strong>.<br />
+              <br />
+              I’m also a Musician with audio engineering skills.&nbsp;<br />
+              <br />
+              <span id={indexStyles.resume}>
+                For more details, check out&nbsp;
+                <strong>
+                  my resume.
+                </strong>
+              </span>
+            </p>
           </div>
         </div>
       </Layout>
