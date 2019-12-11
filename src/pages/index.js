@@ -50,7 +50,8 @@ const IndexPage = (props) => {
             </span>
           </h1>
           <div className={indexStyles.textContainer}>
-            <p>My name is <strong>Andres Urdaneta</strong>. Originaly from Venezuela, but based in Miami, FL.<br />
+            <p>My name is <strong>Andres Urdaneta</strong>. Originaly from Venezuela, but based in Miami, FL.
+            <br />
               <br />
               I’m a creative, ambitious, and passionate Software Developer at&nbsp;
               <strong id={indexStyles.carecloud}>
@@ -74,9 +75,18 @@ const IndexPage = (props) => {
               </strong>,&nbsp;
               <strong id={indexStyles.postgresql}>
                 PostgreSQL
-              </strong>.<br />
+              </strong>.
               <br />
-              I’m also a Musician with audio engineering skills.&nbsp;<br />
+              <br />
+              I’m also a&nbsp;
+              <a
+                id={indexStyles.soundcloud}
+                href='https://soundcloud.com/sadhanapisces'
+                target='_blank'
+              >
+                musician
+              </a> with audio engineering skills.&nbsp;
+              <br />
               <br />
               <span id={indexStyles.resume}>
                 For more details, check out&nbsp;
