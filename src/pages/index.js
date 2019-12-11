@@ -5,10 +5,6 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import Head from '../components/head'
 
-// import Layout from "../components/layout"
-// import Image from "../components/image"
-// import SEO from "../components/seo"
-
 export const query = graphql`
 query {
   file (
