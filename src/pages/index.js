@@ -50,7 +50,7 @@ const IndexPage = (props) => {
             </span>
           </h1>
           <div className={indexStyles.textContainer}>
-            <p>My name is <strong>Andres Urdaneta</strong>. Originaly from Venezuela, but based in Miami🌴, FL.
+            <p>My name is <strong>Andres Urdaneta</strong>. Originally from Venezuela, but based in Miami🌴, FL.
             <br />
               <br />
               I’m a creative, ambitious, and passionate Software Developer.
