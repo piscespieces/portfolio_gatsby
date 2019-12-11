@@ -1,9 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby AU Project`,
-    description: `Student project to get started with GatsbyJS.`,
+    title: `Andres Urdaneta`,
+    description: `Andres Urdaneta Portfolio Web App.`,
     author: `Andres E. Urdaneta`,
-    instagram: `@andresurd`
+    socialMedia: {
+      linkedin: ``,
+      github: ``,
+      ig: ``,
+      twitter: ``,
+      soundcloud: ``
+    }
   },
   plugins: [
     {
