@@ -91,8 +91,52 @@
     .textWrapper {
 
         h1 {
-            font-size: 3.5rem;
-            line-height: 9rem;
+            font-size: 3rem;
+            line-height: 7rem;
         }
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .imageWrapper {
+        height: 30vh;
+    }
+
+    .imageContainer {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 4vh;
+
+        img {
+            margin: 0;
+        }
+    }
+
+    .image {
+        width: 30vw;
+    }
+
+    .textWrapper {
+
+        h1 {
+            font-size: 2.7rem;
+            line-height: 6rem;
+            margin-left: 2.5vw;
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .imageWrapper {
+        height: 25vh;
+    }
+
+    .imageContainer {
+        margin: 0;
+    }
+
+    .image {
+        width: 37vw;
     }
 }
