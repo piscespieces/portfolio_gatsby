@@ -78,3 +78,21 @@
         color: #e1a677;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .imageWrapper {
+        height: 100%;
+    }
+
+    .imageContainer {
+        width: 85%;
+    }
+
+    .textWrapper {
+
+        h1 {
+            font-size: 3.5rem;
+            line-height: 9rem;
+        }
+    }
+}

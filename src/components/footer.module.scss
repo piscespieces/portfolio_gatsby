@@ -2,7 +2,7 @@
     background: #0F1623;
     width: 100vw;
     height: 10vh;
-    position: relative;
+    position: fixed;
     right: 0;
     bottom: 0;
 
@@ -43,5 +43,15 @@
         transform: scale(1.1);
         -webkit-transform: scale(1.1);
         margin: 0 .3em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contactIconsWrapper {
+        
+        a {
+            display: flex;
+            align-items: center;
+        }
     }
 }
