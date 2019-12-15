@@ -10,7 +10,9 @@ const Resume = () => {
         <Layout>
             <Head helmetTitle='Resume' />
             <div className={resumeStyles.container}>
-                <h1>This is the resume branch</h1>
+                <div className={resumeStyles.backButton}>
+                    <button>Back to About</button>
+                </div>
             </div>
         </Layout>
     )
