@@ -12,7 +12,7 @@ const Resume = () => {
             <main className={resumeStyles.main}>
                 <div className={resumeStyles.pageWrapper}>
                     <button type='button'>
-                        <a href='/resume'>
+                        <a href='/about'>
                             Back to About
                         </a>
                     </button>
