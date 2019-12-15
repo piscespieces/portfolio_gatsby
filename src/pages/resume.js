@@ -1,17 +1,53 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Head from '../components/head'
 import Layout from '../components/layout'
 
 import resumeStyles from './resume.module.scss'
 
+export const query = graphql`
+    query {
+        markdownRemark (
+        fields: {
+            slug: {
+            eq: "resume"
+            }
+        }
+        ) {
+        frontmatter {
+            title
+        }
+        html
+        }
+    }
+`
 
-const Resume = () => {
+const Resume = props => {
+    console.log(props)
     return (
         <Layout>
             <Head helmetTitle='Resume' />
-            <div className={resumeStyles.container}>
-                <h1>This is the resume branch</h1>
-            </div>
+            <main className={resumeStyles.main}>
+                <div className={resumeStyles.buttonContainer}>
+                    <button type='button'>
+                        <a href='/about'>
+                            Back to About
+                        </a>
+                    </button>
+                </div>
+
+                <div className={resumeStyles.nameResumeHeader}>
+                    <h1>Andres Urdaneta</h1>
+                </div>
+
+                <div className={resumeStyles.markdownWrapper}>
+                    <div
+                        dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
+                        className={resumeStyles.markdown}
+                    >
+                    </div>
+                </div>
+            </main>
         </Layout>
     )
 }
