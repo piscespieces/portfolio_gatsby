@@ -3,8 +3,35 @@
     flex-direction: column;
     align-items: center;
     padding: 10vh 10vw 10vh 10vw;
+    color: white;
+    font-family: Roboto Mono, monospace;
 }
 
-.pageWrapper {
+.buttonContainer {
     width: 80%;
+    margin-bottom: 5vh;
+}
+
+.nameResumeHeader {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    
+    h1 {
+        font-family: Roboto Mono, monospace;
+    }
+}
+
+.markdownWrapper {
+    width: 80%;
+    font-family: Roboto Mono, monospace;
+}
+
+.markdown {
+
+    h2 {
+        margin-top: 4rem;
+        color: #E5C086;
+        font-family: Roboto Mono, monospace;
+    }
 }

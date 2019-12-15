@@ -28,7 +28,7 @@ const Resume = props => {
         <Layout>
             <Head helmetTitle='Resume' />
             <main className={resumeStyles.main}>
-                <div className={resumeStyles.pageWrapper}>
+                <div className={resumeStyles.buttonContainer}>
                     <button type='button'>
                         <a href='/about'>
                             Back to About
@@ -36,12 +36,16 @@ const Resume = props => {
                     </button>
                 </div>
 
-                <div>
+                <div className={resumeStyles.nameResumeHeader}>
                     <h1>Andres Urdaneta</h1>
                 </div>
 
                 <div className={resumeStyles.markdownWrapper}>
-                    <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
+                    <div
+                        dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
+                        className={resumeStyles.markdown}
+                    >
+                    </div>
                 </div>
             </main>
         </Layout>
