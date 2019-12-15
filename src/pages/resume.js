@@ -11,7 +11,11 @@ const Resume = () => {
             <Head helmetTitle='Resume' />
             <main className={resumeStyles.main}>
                 <div className={resumeStyles.pageWrapper}>
-                    <button>Back to About</button>
+                    <button type='button'>
+                        <a href='/resume'>
+                            Back to About
+                        </a>
+                    </button>
                 </div>
 
                 <div>
