@@ -20,6 +20,7 @@
     h1 {
         font-family: Roboto Mono, monospace;
         color: #F8B9B9;
+        font-size: 2.6rem;
     }
 }
 
@@ -57,4 +58,23 @@
         color: #a09797;
         font-family: Roboto Mono, monospace;
     }
+}
+
+.backButton {
+    margin: 0;
+    padding: 0 0.5rem;
+    line-height: 2em;
+    background-color: hsla(24,86%,73%,0.2);
+    border: 1px solid hsl(26,80%,71%);
+    border-radius: 10px;
+    transition-duration: 200ms;
+
+    a {
+        color: hsl(26,80%,71%);
+        text-decoration: none;
+    }
+}
+
+.backButton:hover {
+    opacity: 0.9;
 }
