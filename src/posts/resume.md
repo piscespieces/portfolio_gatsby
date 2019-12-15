@@ -47,7 +47,7 @@ Languages & Frameworks: HTML5, JavaScript, CSS, React, Ruby, Ruby on Rails, SQL
 
 (Miami, FL | 2019)
 
-### LA UNIVERSIDAD DEL ZULIA 
+### La Universidad Del Zulia 
 #### Bachelor of Laws 
 
 Legal codes, court Proceedings, academic processes, theories & principles of law

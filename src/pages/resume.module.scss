@@ -19,6 +19,7 @@
     
     h1 {
         font-family: Roboto Mono, monospace;
+        color: #F8B9B9;
     }
 }
 
@@ -32,6 +33,28 @@
     h2 {
         margin-top: 4rem;
         color: #E5C086;
+        font-family: Roboto Mono, monospace;
+    }
+
+    p:nth-child(1){
+        color: #8AC2BF;
+    }
+
+    p:nth-child(2) {
+        color: #809CBA;
+    }
+
+    p, ul, ol {
+        color: #639D7B;
+    }
+
+    h3 {
+        color: #F0AD7A;
+        font-family: Roboto Mono, monospace;
+    }
+
+    h4 {
+        color: #a09797;
         font-family: Roboto Mono, monospace;
     }
 }
