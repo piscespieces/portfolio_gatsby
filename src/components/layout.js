@@ -9,13 +9,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div className={layoutStyles.container}>
-
-        <div className={layoutStyles.content}>
-          {children}
-        </div>
-
-      </div>
+      {children}
       <Footer />
     </>
   )
