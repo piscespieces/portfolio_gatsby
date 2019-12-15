@@ -1,11 +1,29 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Head from '../components/head'
 import Layout from '../components/layout'
 
 import resumeStyles from './resume.module.scss'
 
+export const query = graphql`
+    query {
+        markdownRemark (
+        fields: {
+            slug: {
+            eq: "resume"
+            }
+        }
+        ) {
+        frontmatter {
+            title
+        }
+        html
+        }
+    }
+`
 
-const Resume = () => {
+const Resume = props => {
+    console.log(props)
     return (
         <Layout>
             <Head helmetTitle='Resume' />
@@ -23,7 +41,7 @@ const Resume = () => {
                 </div>
 
                 <div className={resumeStyles.markdownWrapper}>
-
+                    <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
                 </div>
             </main>
         </Layout>
