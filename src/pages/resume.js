@@ -29,7 +29,7 @@ const Resume = props => {
             <Head helmetTitle='Resume' />
             <main className={resumeStyles.main}>
                 <div className={resumeStyles.buttonContainer}>
-                    <button type='button'>
+                    <button className={resumeStyles.backButton} type='button'>
                         <a href='/about'>
                             Back to About
                         </a>
