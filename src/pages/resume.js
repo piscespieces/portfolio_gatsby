@@ -30,7 +30,7 @@ const Resume = props => {
             <main className={resumeStyles.main}>
                 <div className={resumeStyles.buttonContainer}>
                     <button className={resumeStyles.backButton} type='button'>
-                        <a href='/about'>
+                        <a href='/'>
                             Back to About
                         </a>
                     </button>
