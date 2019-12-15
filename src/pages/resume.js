@@ -9,11 +9,19 @@ const Resume = () => {
     return (
         <Layout>
             <Head helmetTitle='Resume' />
-            <div className={resumeStyles.container}>
-                <div className={resumeStyles.backButton}>
+            <main className={resumeStyles.main}>
+                <div className={resumeStyles.pageWrapper}>
                     <button>Back to About</button>
                 </div>
-            </div>
+
+                <div>
+                    <h1>Andres Urdaneta</h1>
+                </div>
+
+                <div className={resumeStyles.markdownWrapper}>
+
+                </div>
+            </main>
         </Layout>
     )
 }
