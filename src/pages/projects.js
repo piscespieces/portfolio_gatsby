@@ -11,7 +11,7 @@ const ProjectsPage = () => (
             <Head helmetTitle='Contact' />
             <main className={projectStyles.main}>
                 <div className={projectStyles.projectWrapper}>
-                    <div>
+                    <div className={projectStyles.cardWrapper}>
                         <Card />
                     </div>
 
