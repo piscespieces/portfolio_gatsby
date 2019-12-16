@@ -12,15 +12,11 @@ const ProjectsPage = () => (
             <main className={projectStyles.main}>
                 <div className={projectStyles.projectWrapper}>
                     <div className={projectStyles.cardWrapper}>
-                        <Card />
+                        <Card className={projectStyles.card1} />
                     </div>
 
-                    <div>
-                        <h1>Project container 2</h1>
-                    </div>
-
-                    <div>
-                        <h1>Project container 3</h1>
+                    <div className={projectStyles.cardWrapper}>
+                        <Card className={projectStyles.card2} />
                     </div>
                 </div>
             </main>
