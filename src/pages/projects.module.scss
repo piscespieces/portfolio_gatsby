@@ -22,7 +22,7 @@
     height: 18ch;
     background: grey;
     border-radius: 5px;
-    background-image: url(../images/chatroom.png);
+    background-image: url(../images/shipship.png);
     background-size: 100% 100%;
     background-position: center center;
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
@@ -36,7 +36,7 @@
     height: 18ch;
     background: grey;
     border-radius: 5px;
-    background-image: url(../images/shipship.png);
+    background-image: url(../images/chatroom.png);
     background-size: 100% 100%;
     background-position: center center;
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
@@ -47,4 +47,23 @@
   
   .card1:hover, .card2:hover {
     box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+  }
+
+  .desc {
+    width: 35ch;
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    color: #639D7B;
+
+    h2 {
+      margin: 0 0 10px 0;
+      color: #E5C086;
+    }
+
+    em {
+      font-size: 0.8rem;
+      color: #988F8F;
+      line-height: 1px;
+    }
+
   }
