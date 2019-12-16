@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20vh 10vw 10vh 10vw;
+    color: white;
+}
+
+.contactWrapper {
+
+    h1 {
+        font-family: Roboto Mono, monospace;
+        color: #F3B7B6;
+    }
+
+    h2 {
+        font-family: Roboto Mono, monospace;
+        color: #829AB3;
+
+        span {
+            color: rgb(156, 9, 6);
+        }
+    }
+
+    ul {
+        color: #639F83;
+    }
+
+    a {
+        color: #639F83;
+        font-family: Roboto Mono, monospace;
+    }
+}
