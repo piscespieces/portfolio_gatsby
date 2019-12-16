@@ -6,3 +6,45 @@
     color: white;
     font-family: Roboto Mono, monospace;
 }
+
+.projectWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardWrapper {
+    margin: 5vh 0;
+}
+
+.card1 {
+    width: 30ch;
+    height: 18ch;
+    background: grey;
+    border-radius: 5px;
+    background-image: url(../images/chatroom.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 5px solid white;
+  }
+
+  .card2 {
+    width: 30ch;
+    height: 18ch;
+    background: grey;
+    border-radius: 5px;
+    background-image: url(../images/shipship.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.5s;
+    will-change: transform;
+    border: 5px solid white;
+  }
+  
+  .card1:hover, .card2:hover {
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+  }

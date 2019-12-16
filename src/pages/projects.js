@@ -11,16 +11,16 @@ const ProjectsPage = () => (
             <Head helmetTitle='Contact' />
             <main className={projectStyles.main}>
                 <div className={projectStyles.projectWrapper}>
-                    <div>
-                        <Card />
+                    <div className={projectStyles.cardWrapper}>
+                        <a href="https://piscespieces.github.io/lonely_chatroom/">
+                            <Card className={projectStyles.card1} />
+                        </a>
                     </div>
 
-                    <div>
-                        <h1>Project container 2</h1>
-                    </div>
-
-                    <div>
-                        <h1>Project container 3</h1>
+                    <div className={projectStyles.cardWrapper}>
+                        <a href="https://wyn-shipship.herokuapp.com/">
+                            <Card className={projectStyles.card2} />
+                        </a>
                     </div>
                 </div>
             </main>
