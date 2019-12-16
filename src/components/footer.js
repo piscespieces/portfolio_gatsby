@@ -18,19 +18,36 @@ const Footer = () => {
    return (
       <footer className={footerStyles.footer}>
          <div className={footerStyles.contactIconsWrapper}>
-            <a href='www.linkedin.com/in/andres-urd' target='_blank'>
+            <a href='https://linkedin.com/in/andres-urd'
+               target='_blank'
+               rel="noopener noreferrer"
+            >
                <FaLinkedin />
             </a>
-            <a href='https://github.com/piscespieces' target='_blank'>
+            <a
+               href='https://github.com/piscespieces'
+               target='_blank'
+               rel="noopener noreferrer"
+            >
                <FaGithub />
             </a>
-            <a href='https://www.instagram.com/andreseurd/' target='_blank'>
+            <a
+               href='https://www.instagram.com/andreseurd/'
+               target='_blank'
+               rel="noopener noreferrer"
+            >
                <FaInstagram />
             </a>
-            <a href='https://twitter.com/_andresur'>
+            <a
+               href='https://twitter.com/_andresur'
+               rel="noopener noreferrer"
+            >
                <FaTwitter />
             </a>
-            <a href='https://soundcloud.com/sadhanapisces'>
+            <a
+               href='https://soundcloud.com/sadhanapisces'
+               rel="noopener noreferrer"
+            >
                <FaSoundcloud />
             </a>
          </div>
