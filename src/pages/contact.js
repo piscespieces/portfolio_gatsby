@@ -8,7 +8,11 @@ const ContactPage = () => (
    <>
       <Layout>
          <Head helmetTitle='Contact' />
-         <main className={contactStyles.main}></main>
+         <main className={contactStyles.main}>
+            <div className={contactStyles.contactWrapper}>
+               <h1>I would love to hear from you</h1>
+            </div>
+         </main>
       </Layout>
    </>
 )
