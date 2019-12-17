@@ -125,6 +125,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        height: 80vh;
+    }
+
     .content {
         grid-template-columns: 1fr 1fr;
      }
@@ -203,7 +208,13 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) and (min-height: 812px) {
+    .container {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 80vh;
+    }
+
     .textWrapper {
 
         h1 {
@@ -216,6 +227,21 @@
         p {
             font-size: 0.9rem;
         }
+    }
+
+    .imageWrapper {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-height: 667px) and (max-width: 375px) {
+    .container {
+        margin-top: 2vh;
+        margin-bottom: 15vh;
+    }
+
+    .imageWrapper {
+        margin-bottom: 1vh;
     }
 }
 
