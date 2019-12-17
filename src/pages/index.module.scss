@@ -96,7 +96,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     .container {
         width: 100vw;
         margin: 0;
@@ -125,6 +125,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        height: 80vh;
+    }
+
     .content {
         grid-template-columns: 1fr 1fr;
      }
@@ -204,6 +209,11 @@
 }
 
 @media only screen and (max-width: 375px) {
+    .container {
+        margin-top: 3vh;
+        margin-bottom: 15vh;
+    }
+
     .textWrapper {
 
         h1 {
@@ -216,6 +226,10 @@
         p {
             font-size: 0.9rem;
         }
+    }
+
+    .imageWrapper {
+        margin-bottom: 2vh;
     }
 }
 

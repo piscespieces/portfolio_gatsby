@@ -47,6 +47,16 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .footer {
+        background: #0F1623;
+        width: 100vw;
+        height: 10vh;
+        margin-bottom: 10vh;
+        position: unset;
+        right: unset;
+        bottom: unset;
+    }
+
     .contactIconsWrapper {
         
         a {
