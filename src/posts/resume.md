@@ -10,7 +10,7 @@ aeum3893@gmail.com
 ## Work Experience
 
 ### Byscaine Devs
-#### *(Miami, FL | Aug 2018 - Present)*
+#### *(Miami, FL | Aug 2019 - Present)*
 #### Full Stack Web Developer 
 
 - Maintaining and modernizing Wyncode’s website using Ruby and Jekyll.
