@@ -12,7 +12,11 @@ const ProjectsPage = () => (
             <main className={projectStyles.main}>
                 <div className={projectStyles.projectWrapper}>
                     <div className={projectStyles.cardWrapper}>
-                        <a href="https://piscespieces.github.io/lonely_chatroom/">
+                        <a
+                            href="https://wyn-shipship.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <Card className={projectStyles.card1} />
                         </a>
                         <div className={projectStyles.desc}>
@@ -24,7 +28,11 @@ const ProjectsPage = () => (
                     </div>
 
                     <div className={projectStyles.cardWrapper}>
-                        <a href="https://wyn-shipship.herokuapp.com/">
+                        <a
+                            href="https://piscespieces.github.io/lonely_chatroom/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <Card className={projectStyles.card2} />
                         </a>
                         <div className={projectStyles.desc}>

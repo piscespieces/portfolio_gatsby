@@ -70,6 +70,7 @@ const IndexPage = (props) => {
                     id={indexStyles.soundcloud}
                     href='https://soundcloud.com/sadhanapisces'
                     target='_blank'
+                    rel="noopener noreferrer"
                   >
                     musician
                   </a> with audio engineering skills.&nbsp;
