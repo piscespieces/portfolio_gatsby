@@ -7,7 +7,48 @@ Creative, ambitious, and passionate software engineer.
 
 aeum3893@gmail.com
 
-## Skills
+## Work Experience
+
+### Byscaine Devs
+#### *(Miami, FL | Aug 2019 - Present)*
+#### Full Stack Web Developer 
+
+- Maintaining and modernizing Wyncode’s website using Ruby and Jekyll.
+- Collaborated with team in developing a React native mobile app for the Heart Brain Program.
+- Successfully gallop through developing numerous landing pages for Mia Tints and Wraps in a 2-week period.
+- Developed a “Take Turns” app system to be sold to local stores around Miami using NextJS.
+- One of three founders of Biscayne Devs.
+
+### Department of Labor
+#### *(Maracaibo, Zulia | 2016 - 2017)*
+#### Attorney
+
+1. Prepared affidavits, by organizing legal documents and preparing the ministry’s case before going to court.
+2. Archived Ministry’s document for keeping history of pertinent legal proceedings.
+3. Analyzed legal cases and gave an estimate of employee compensation based on the nature of the case.
+
+## Education
+
+### Wyncode Academy
+#### *(Miami, FL | 2019)*
+#### Full-Stack Web Developer Program 
+
+__Languages & Frameworks:__ HTML5, JavaScript, CSS, React, Ruby, Ruby on Rails, SQL
+
+### La Universidad Del Zulia 
+#### *(Maracaibo, Zulia 2010 - 2015)*
+#### Bachelor of Laws 
+
+__Courses:__ Legal Code, Court Proceedings, Theories & Principles of Law, Member of Political Party “Primero Justicia”
+
+### Conservatory of Music 
+#### *(Maracaibo, Zulia 2011 - 2014)*
+#### Associate Degree in Music
+
+Sight Reading, Spanish Guitar, Orchestration
+
+## Skills & Abilities
+### Technical
 - Javascript
 - NodeJS
 - ReactJS
@@ -17,47 +58,14 @@ aeum3893@gmail.com
 - MongoDB
 - graphQL
 
-## Work   
+### Languages
+- Spanish (Full professional proficiency)
+- English (Full professional proficiency)
 
-### Guitar Center
-#### Operations Lead
-
-1. Task related to Inventory
-2. Shipping and receiving merchandise
-3. Cycle counting of inventory
-4. Stocking and merchandising to a planogram
-5. Additional duties as assigned
-(Miami, FL | Aug 2018 - Ssep 2019)
-
-### Ministerio Del Trabajo (Department of Labor)
-#### Associate Attorney
-
-1. Prepare affidavits or other documents, organize and maintain documents in paper or electronic filing system.
-2. Prepare for trial by performing tasks such as organizing exhibits
-3. Prepare legal documents, including briefs, pleadings, appeals, wills, contacts, and real estate closing.
-
-(Venezuela, Zulia | 2016 - 2017)
-
-## Education
-
-### Wyncode Academy
-#### Full-Stack Web Developer Program 
-
-Languages & Frameworks: HTML5, JavaScript, CSS, React, Ruby, Ruby on Rails, SQL
-
-(Miami, FL | 2019)
-
-### La Universidad Del Zulia 
-#### Bachelor of Laws 
-
-Legal codes, court Proceedings, academic processes, theories & principles of law
-Member of the "Primero Justicia" Political Party 
-
-(Venezuela, Zulia 2010 - 2015)
-
-### Conservatory of Music
-#### Associate Degree in Music
-
-Sight Reading, Spanish Guitar, Orchestration
-
-(Venezuela, Zulia 2011 - 2014)
+### Interests
+- Music
+- Agile Methodologies
+- Storytelling
+- Growth-Mindset
+- Artificial Intelligence
+- Machine Learning
