@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.andresurdaneta.com">
-    URL to Andres Urdaneta personal/portfolio webpage
+    www.andresurdaneta.com
     <!-- <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" /> -->
   </a>
 </p>
