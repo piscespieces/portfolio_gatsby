@@ -11,6 +11,3 @@
 
 <h3>Landing Page</h3>
 <img src="./src/images/showcase_image1.png">
-
-<h3>Projects Page</h3>
-<img src="./src/images/showcase_image2.png">
